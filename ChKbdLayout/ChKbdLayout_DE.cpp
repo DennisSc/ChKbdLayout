@@ -37,15 +37,18 @@ int main(int argc, char* argv[])
 	//ShellExecute(NULL, L"open", L"c:\\windows\\system32\\notepad.exe", NULL, NULL, SW_SHOWDEFAULT);
 
 	DWORD dwThreadID = GetCurrentThreadId();
-		HKL currenthkl = GetKeyboardLayout(dwThreadID);
+	HKL currenthkl = GetKeyboardLayout(dwThreadID);
 	cout << "currenthkl: " << currenthkl << "\n";
 
-
-
-
-
+	
 	HKL result = ActivateKeyboardLayout(desiredhkl, KLF_ACTIVATE);
-	PostMessage(HWND_BROADCAST, WM_INPUTLANGCHANGEREQUEST, 0, (LPARAM)desiredhkl);
+
+	PostMessage(
+		HWND_BROADCAST, 
+		WM_INPUTLANGCHANGEREQUEST,
+		0,
+		(LPARAM)desiredhkl
+	);
 
 	
 	cout << "result of setting desiredhkl: " << result << "\n";
