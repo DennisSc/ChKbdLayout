@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{CA4F1B17-DE4A-4C6B-8B1E-D5150BED2E7B}</ProjectGuid>
+    <ProjectGuid>{4784CD76-47BD-4C04-BA86-6F1617ABFE95}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ChKbdLayoutRunProc</RootNamespace>
+    <RootNamespace>ChKbdLayoutRunProc2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -148,7 +148,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ChKbdLayout_RunProc.cpp" />
+    <ClCompile Include="ChKbdLayout_RunProc2.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

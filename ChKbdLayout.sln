@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChKbdLayout_DE", "ChKbdLayo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChKbdLayout_RunProc", "ChKbdLayout_RunProc\ChKbdLayout_RunProc.vcxproj", "{CA4F1B17-DE4A-4C6B-8B1E-D5150BED2E7B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChKbdLayout_RunProc2", "ChKbdLayout_RunProc2\ChKbdLayout_RunProc2.vcxproj", "{4784CD76-47BD-4C04-BA86-6F1617ABFE95}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bdechangepin2", "bdechangepin2\bdechangepin2.vcxproj", "{F095B019-6448-4A6E-AB5B-B385C108A23A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +45,22 @@ Global
 		{CA4F1B17-DE4A-4C6B-8B1E-D5150BED2E7B}.Release|x64.Build.0 = Release|x64
 		{CA4F1B17-DE4A-4C6B-8B1E-D5150BED2E7B}.Release|x86.ActiveCfg = Release|Win32
 		{CA4F1B17-DE4A-4C6B-8B1E-D5150BED2E7B}.Release|x86.Build.0 = Release|Win32
+		{4784CD76-47BD-4C04-BA86-6F1617ABFE95}.Debug|x64.ActiveCfg = Debug|x64
+		{4784CD76-47BD-4C04-BA86-6F1617ABFE95}.Debug|x64.Build.0 = Debug|x64
+		{4784CD76-47BD-4C04-BA86-6F1617ABFE95}.Debug|x86.ActiveCfg = Debug|Win32
+		{4784CD76-47BD-4C04-BA86-6F1617ABFE95}.Debug|x86.Build.0 = Debug|Win32
+		{4784CD76-47BD-4C04-BA86-6F1617ABFE95}.Release|x64.ActiveCfg = Release|x64
+		{4784CD76-47BD-4C04-BA86-6F1617ABFE95}.Release|x64.Build.0 = Release|x64
+		{4784CD76-47BD-4C04-BA86-6F1617ABFE95}.Release|x86.ActiveCfg = Release|Win32
+		{4784CD76-47BD-4C04-BA86-6F1617ABFE95}.Release|x86.Build.0 = Release|Win32
+		{F095B019-6448-4A6E-AB5B-B385C108A23A}.Debug|x64.ActiveCfg = Debug|x64
+		{F095B019-6448-4A6E-AB5B-B385C108A23A}.Debug|x64.Build.0 = Debug|x64
+		{F095B019-6448-4A6E-AB5B-B385C108A23A}.Debug|x86.ActiveCfg = Debug|Win32
+		{F095B019-6448-4A6E-AB5B-B385C108A23A}.Debug|x86.Build.0 = Debug|Win32
+		{F095B019-6448-4A6E-AB5B-B385C108A23A}.Release|x64.ActiveCfg = Release|x64
+		{F095B019-6448-4A6E-AB5B-B385C108A23A}.Release|x64.Build.0 = Release|x64
+		{F095B019-6448-4A6E-AB5B-B385C108A23A}.Release|x86.ActiveCfg = Release|Win32
+		{F095B019-6448-4A6E-AB5B-B385C108A23A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
